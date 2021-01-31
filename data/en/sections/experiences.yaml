@@ -1,0 +1,57 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: CLEAN - Bocconi University
+    url: "https://www.clean.unibocconi.eu/wps/wcm/connect/Cdr/Clean/Home"
+    location: 
+    # company overview
+    overview: The CLEAN unit for the Analysis of Crime investigates criminal behavior employing detailed data and frontier quantitative methods. Research covers the activity of criminal organizations pursuing complex illicit businesses such as drug trafficking, corruption, and money laundering. 
+
+  positions:
+  - designation: Research Assistant
+    start: Nov 2020
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    # end: Dec 2020
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Data manipulation and econometric modelling in research projects covering Political, Crime, and Development Economics.
+    - Organize auxiliary material covering Brazilian politics and legislation.
+
+- company:
+    name: Ipea.
+    url: "https://www.ipea.gov.br/portal/"
+    location: Brasilia, Brazil
+    overview: Ipea - Institute of Applied Economic Research - is Brazil's main research institution. Ipea is focused in producing high-level statistics and analysis for Brazilian public policies.
+  positions:
+  - designation: Research Assistant
+    start: April 2020
+    end: 
+    responsibilities:
+    - Support at the [Acces to Oportunities](https://www.ipea.gov.br/acessooportunidades/en/) project, studying inequality and urban mobility in Brazilian cities.
+    - Working with administrative data to perform economic analysis.
+    - Working with spatial data manipulation and visualization.
+    - Assist in the writing of reports and articles.
+
+- company:
+    name: StoneX.
+    url: "https://www.stonex.com"
+    location: Campinas, Brazil
+    overview: StoneX is a financial services organization especializes in agricultural markets worldwide.
+  positions:
+  - designation: Market Analyst
+    start: August 2018
+    end: August 2019
+    responsibilities:
+    - Analysis of international commodities market, mainly grains and oilseeds.
+    - Write daily market reports for Brazilian clients.
+    - Assist in project analysis for Brazilian agricultural market.

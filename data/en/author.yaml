@@ -1,0 +1,16 @@
+# some information about you
+name: "Lucas Warwar"
+nickname: "Lucas"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Hi, I am"
+image: "images/author/lucas.jpg"
+# give your some contact information. they will be used in the footer
+contactInfo:
+  email: "lucas.warwar@gmail.com"
+  phone: "+5519999774224"
+
+# some summary about what you do
+summary:
+  - I am a MSc candidate in Economics at UnB, Brazil 
+  - I work as RA at Bocconi University
+  - I am interested in Urban, Macro and Labor Economics

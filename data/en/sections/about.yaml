@@ -1,0 +1,74 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: MSc candidate in Economics
+# your company information
+company:
+  name: UnB.
+  url: "https://www.face.unb.br/"
+
+# your resume. this file path should be relative to you "static" directory
+resume: "files/resume.pdf"
+
+# a summary about you
+summary: 'I am an economist pursuing an academic career. Currently, I am a MSc candidate at [UnB]("https://www.face.unb.br/"), Brazil, and Research Assistant at [CLEAN - UniBocconi](https://www.clean.unibocconi.eu/wps/wcm/connect/Cdr/Clean/Home). My main research interests are Urban, Macro and Labor economics. Formerly, I worked as Research Assistant at [Ipea](https://www.ipea.gov.br/portal/) and market analyst at [StoneX](https://www.stonex.com/).'
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "lucas.warwar@gmail.com"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/lucaswarwar"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/lucaswarwar/"
+
+- name: Twitter
+  icon: "fab fa-twitter"
+  url: "https://twitter.com/LucasWarwar"
+
+- name: Facebook
+  icon: "fab fa-orcid"
+  url: "https://orcid.org/0000-0003-4643-9513"
+
+# your soft skills
+# give the percentage between 50 to 100 with 5 intervals.
+# currently supported colors: blue, yellow, pink, green, sky, orange
+softSkills:
+- name: Programming
+  percentage: 75
+  color: blue
+- name: Team Work
+  percentage: 85
+  color: yellow
+- name: Communication
+  percentage: 70
+  color: pink
+- name: Hard Working
+  percentage: 80
+  color: green
+- name: Fast Learner
+  percentage: 90
+  color: sky
+- name: Curious
+  percentage: 95
+  color: orange
+# you can also provide color code instead of pre-defined color name
+# - name: Example 1
+#   percentage: 75
+#   color: "#00adb5"
+# - name: Example 2
+#   percentage: 65
+#   color: "#8b8383"

@@ -1,0 +1,50 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: B.Sc. in Economics
+  icon: fa-graduation-cap
+  timeframe: 2015-2019
+  institution:
+    name: University of Campinas
+    url: "https://www.unicamp.br/"
+  grade: #(optional)
+    scale: GPA
+    achieved: 7.5
+    outOf: 10
+  takenCourses: 
+    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
+    showGrades: false
+    courses:
+    - name: Microeconomics I - V
+      achieved: 3.75
+      outOf: 4
+    - name: Macroeconomics I - III
+      achieved: 3.80
+      outOf: 4
+    - name: Econometrics I and II
+      achieved: 3.5
+      outOf: 4
+    - name: Economic History
+      achieved: 3.75
+      outOf: 4
+  extracurricularActivities: 
+  - Research internship.
+  - Vice-President of the athletics student's association.
+  - Handball player at university's team.
+- name: Exchange Student
+  icon: fa-university
+  timeframe: 2018-2018
+  institution:
+    name: Technical University of Munich
+    url: "https://tum.de/en/"
+ 
+

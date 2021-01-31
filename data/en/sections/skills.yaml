@@ -1,0 +1,31 @@
+# section information
+section:
+  name: Skills
+  id: skills
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+skills:
+- name: Languages
+  logo: "/images/sections/skills/languages.png"
+  summary: "Native in Portuguese, fluent in English. Intermediate knowledge of French and Spanish."
+  url: ""
+
+- name: R
+  logo: "/images/sections/skills/R.svg"
+  summary: "Using as main language for research tasks. Advanced skills in data manipulation, and econometric models. Intermediate nowledge of webscrapping."
+  url: "https://golang.org/"
+
+- name: Version Control
+  logo: "/images/sections/skills/git.png"
+  summary: "Mostly, use Github. Also, have experience in working with GitLab."
+  url: "https://git-scm.com/"
+
+- name: Spatial Data
+  logo: "/images/sections/skills/maps.png"
+  summary: "Familiarity with spatial data manipulation, visualization, and geocoding. Mainly using R, but also QGIS."
